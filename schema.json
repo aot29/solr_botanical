@@ -1,0 +1,604 @@
+{
+  "add-field": [
+    {
+      "name": "basisOfRecord",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "scientificName",
+      "type": "text_general",
+      "multiValued": false
+    },
+    {
+      "name": "taxonRank",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "countryCode",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "occurrenceID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "catalogNumber",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "genus",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "specificEpithet",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "year",
+      "type": "pint",
+      "multiValued": false
+    },
+    {
+      "name": "eventDate",
+      "type": "pdate",
+      "multiValued": false
+    },
+    {
+      "name": "locality",
+      "type": "text_general",
+      "multiValued": false
+    },
+    {
+      "name": "recordedBy",
+      "type": "text_general",
+      "multiValued": false
+    },
+    {
+      "name": "infraspecificEpithet",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "decimalLatitude",
+      "type": "pdouble",
+      "multiValued": false
+    },
+    {
+      "name": "decimalLongitude",
+      "type": "pdouble",
+      "multiValued": false
+    },
+    {
+      "name": "geodeticDatum",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "setID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimEventDate",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "typeStatus",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "stateProvince",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identifiedBy",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "dateIdentified",
+      "type": "pdate",
+      "multiValued": false
+    },
+    {
+      "name": "continent",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identifier",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "month",
+      "type": "pint",
+      "multiValued": false
+    },
+    {
+      "name": "day",
+      "type": "pint",
+      "multiValued": false
+    },
+    {
+      "name": "county",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "modified",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "recordNumber",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "habitat",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "eventRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "coordinateUncertaintyInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identificationRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimElevation",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "otherCatalogNumbers",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "collectionID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "rightsHolder",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimLocality",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "datasetID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimCoordinates",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "scientificNameAuthorship",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "kingdom",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "phylum",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "order",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "family",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "class",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "collectionCode",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "nomenclaturalCode",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "higherClassification",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimTaxonRank",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "institutionCode",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "occurrenceRemarks",
+      "type": "text_general",
+      "multiValued": false
+    },
+    {
+      "name": "higherGeography",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "municipality",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "georeferenceProtocol",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "fieldNumber",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "locationRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "islandGroup",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "island",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "taxonRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identificationQualifier",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "startDayOfYear",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "sex",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "preparations",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "datasetName",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "informationWithheld",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "elevation",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "elevationAccuracy",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "fieldNotes",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "institutionID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "taxonomicStatus",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "acceptedNameUsage",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "references",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "eventID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "taxonID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "locationID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identificationID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "vernacularName",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimCoordinateSystem",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "ownerInstitutionCode",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "samplingProtocol",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "minimumElevationInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "maximumElevationInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimDepth",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "minimumDepthInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "maximumDepthInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "minimumDistanceAboveSurfaceInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "maximumDistanceAboveSurfaceInMeters",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "eventTime",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "endDayOfYear",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "occurrenceDetails",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "coordinatePrecision",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "waterBody",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identificationVerificationStatus",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "identificationReferences",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "canonicalName",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "organismRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "establishmentMeans",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "relationshipRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "measurementRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimRecordedBy",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimLongitude",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "verbatimLatitude",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "georeferenceRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "languageRemarks",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "EXmultimedia",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "EXidentifier",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "EXidentification",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "persistentID",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "jpegURL",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "tiffURL",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "jsonURL",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "pngSegAllURL",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "pngSegSelURL",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "DOI",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "jpegURL2",
+      "type": "string",
+      "multiValued": false
+    },
+    {
+      "name": "tiffURL2",
+      "type": "string",
+      "multiValued": false
+    }
+  ]
+}
